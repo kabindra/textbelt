@@ -10,7 +10,7 @@
       , "jade": "~0.14.2"
       , "mixpanel": "~0.0.19"
       , "nodemailer": "~0.6.1"
-      , "heroku-redis": "~3.2.0"
+      , "heroku-redis": "~1.2.15"
       , "underscore": "~1.6.0"
     }
   , "devDependencies": {
