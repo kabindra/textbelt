@@ -7,7 +7,7 @@ var express = require('express')
   , fs = require('fs')
   , path = require('path')
   , mixpanel = require('mixpanel')
-  , redis = require('redis-url').connect()
+  , redis = require('redis-url').connect("redis://h:p1edef157d7d5515cea7a626d20e5fb6d91b64f826eabe2fbb43c3a0a30020d19@ec2-34-226-55-20.compute-1.amazonaws.com:11609")
   , spawn = require('child_process').spawn
   , text = require('../lib/text');
 
