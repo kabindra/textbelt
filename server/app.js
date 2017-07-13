@@ -7,7 +7,7 @@ var express = require('express')
   , fs = require('fs')
   , path = require('path')
   , mixpanel = require('mixpanel')
-  , redis = require('redis').createClient(process.env.REDIS_URL);
+  , redis = require('redis').createClient(process.env.REDIS_URL)
   , spawn = require('child_process').spawn
   , text = require('../lib/text');
 
